@@ -3,122 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Halyna Datsiuk - Perfil Profesional</title>
+  <title>Halyna Datsiuk – Presentación Profesional</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
+      background: #f6f8fa;
       color: #333;
     }
     .container {
       max-width: 900px;
       margin: auto;
+      background: white;
       padding: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      border-radius: 10px;
     }
-    header {
+    .header {
       text-align: center;
-      padding: 20px 0;
     }
-    header img {
-      border-radius: 50%;
-      max-width: 160px;
-      height: auto;
+    img.photo {
+      width: 160px;
+      border-radius: 8px;
+      margin-bottom: 10px;
     }
-    h1 {
-      margin-top: 15px;
-      font-size: 26px;
-      color: #222;
-    }
-    h2 {
-      margin-top: 30px;
-      font-size: 20px;
-      color: #004080;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 5px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .contact-links {
-      margin-top: 15px;
-    }
-    .contact-links a {
-      margin-right: 15px;
-      text-decoration: none;
-      color: #0077b5;
+    .langs {
+      text-align: right;
     }
     .section {
-      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
     }
     .qr {
-      max-width: 130px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
     }
+    .qr img {
+      width: 120px;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .btn {
+      background: #0077b5;
+      color: white;
+      padding: 10px 15px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .btn.whatsapp { background: #25d366; }
   </style>
 </head>
 <body>
   <div class="container">
-    <header>
-      <img src="фото для резюме.jpg" alt="Halyna Datsiuk">
+    <div class="langs">
+      <a href="#es">🇪🇸 Español</a> | <a href="#ru">🇷🇺 Русский</a>
+    </div>
+    <div class="header">
+      <img src="фото для резюме.jpg" alt="Halyna Datsiuk" class="photo">
       <h1>Halyna Datsiuk</h1>
-      <p>Atención al Cliente | Administración | Gestión de Ventas</p>
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/halyna-datsiuk" target="_blank">LinkedIn</a>
-        <a href="https://wa.me/34656376850" target="_blank">WhatsApp</a>
-        <a href="mailto:datsiuk.halynapk@gmail.com">Email</a>
+      <p>Administración, Atención al Cliente, Gestión Comercial</p>
+    </div>
+
+    <div class="section" id="es">
+      <h2>Sobre mí (Español)</h2>
+      <p>Soy una persona proactiva, organizada y responsable, con gran capacidad de aprendizaje y adaptación. Disfruto del trato con el cliente y de motivar al equipo para alcanzar objetivos comunes. Busco oportunidades en atención al cliente para aportar mis habilidades y compromiso con la excelencia.</p>
+    </div>
+
+    <div class="section" id="ru">
+      <h2>О себе (Русский)</h2>
+      <p>Я активная, организованная и ответственная, легко обучаюсь и быстро адаптируюсь. Люблю работать с клиентами и вдохновлять команду на достижение общих целей. Ищу возможности в сфере обслуживания клиентов, чтобы применить свои навыки и стремление к качеству.</p>
+    </div>
+
+    <div class="qr">
+      <div>
+        <p><strong>LinkedIn</strong></p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.linkedin.com/in/halyna-datsiuk" alt="LinkedIn QR">
       </div>
-    </header>
-
-    <div class="section">
-      <h2>Sobre mí</h2>
-      <p>Soy una persona proactiva, organizada y responsable, con una gran capacidad de aprendizaje y adaptación a nuevos entornos. Me apasiona el trato con el cliente y disfruto motivando y potenciando al equipo para alcanzar objetivos comunes.</p>
+      <div>
+        <p><strong>WhatsApp</strong></p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/34656376850" alt="WhatsApp QR">
+      </div>
     </div>
 
-    <div class="section">
-      <h2>Experiencia Laboral</h2>
-      <ul>
-        <li><strong>Gerente Regional de Ventas</strong> (Electrónica, Ucrania) – 5 años</li>
-        <li><strong>Directora</strong> (Agencia de viajes, Ucrania) – 3 años</li>
-        <li><strong>Gerente de Ventas B2B</strong> (Licitaciones, Ucrania) – 1 año</li>
-        <li><strong>Subgerente de Supermercado</strong> (Ucrania) – 1 año</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>CRM: Bitrix24, Planfix, All-inclusive, Wix, 1C</li>
-        <li>Gestión documental, contabilidad primaria</li>
-        <li>Atención al cliente, coordinación de equipos</li>
-        <li>Procesos de licitación pública, logística</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Idiomas</h2>
-      <ul>
-        <li>Español – B1</li>
-        <li>Inglés – B1</li>
-        <li>Ucraniano – Nativo</li>
-        <li>Ruso – Nativo</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Educación</h2>
-      <ul>
-        <li>Licenciatura en Economía – Universidad Nacional Agraria de Mykolayiv</li>
-        <li>Curso Universitario de Auxiliar Administrativo – 475 horas (España)</li>
-        <li>Manipulación de Alimentos – Nivel alto riesgo</li>
-        <li>Excel, Inteligencia Artificial, Marketing Digital (Santander)</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Contacto Rápido</h2>
-      <p>Teléfono: <a href="tel:+34656376850">+34 656 376 850</a></p>
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=130x130&data=https://www.linkedin.com/in/halyna-datsiuk" alt="QR LinkedIn" class="qr">
+    <div class="contact">
+      <a class="btn" href="https://www.linkedin.com/in/halyna-datsiuk" target="_blank">LinkedIn</a>
+      <a class="btn whatsapp" href="https://wa.me/34656376850" target="_blank">WhatsApp</a>
+      <p>Email: <a href="mailto:datsiuk.halynapk@gmail.com">datsiuk.halynapk@gmail.com</a></p>
     </div>
   </div>
 </body>
